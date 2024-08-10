@@ -6,6 +6,13 @@
     font-style: normal;
   }
 
+  .inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +22,12 @@
 /* shared styles */
 .text-light{
     color: #fff;
+}
+.text-danger{
+    color: rgb(255, 0, 0);
+}
+.text-dark{
+    color: #000;
 }
 
 /* header related styles */
@@ -54,4 +67,40 @@
     font-weight: 900;
     line-height: 90px;
     letter-spacing: 0%;
+}
+
+/* main related styles */
+.new-year-discount{
+    margin: 0 auto;
+    max-width: 800px;
+    max-height: 800px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+.discount-title{
+    font-size: 5.25rem;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+}
+.subtitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding: 16px 7px;
+}
+
+.discount-subtitle{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+}
+
+.discount-image{
+    margin-top: 48px;
+    max-height: 500px;
 }
