@@ -29,18 +29,23 @@
 .text-dark{
     color: #000;
 }
+.text-darklight-1{
+    color: rgba(255, 255, 255, 0.8);
+}
+.text-darklight{
+    color: rgba(7, 2, 17, 0.6);
+}
 
 .display-flex{
     display: flex;
 }
 
 .content-subtitle{
-    color: rgba(255, 255, 255, 0.8);
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0%;
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 .btn-primary{
@@ -51,6 +56,15 @@
     text-transform: uppercase;
     border: none;
     padding: 15px 30px;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    padding: 15px 0px;
 }
 
 /* header related styles */
@@ -174,4 +188,36 @@
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
+}
+
+/* upcoming offer related styles */
+
+.upcoming{
+    gap: 100px;
+    align-items: center;
+
+}
+.upcoming-content-1{
+    max-width: 400px;
+}
+.upcoming-image{
+    max-width: 460px;
+    max-height: 460px;
+    border: 15px solid red;
+    border-radius: 50%;
+}
+
+.image{
+    width: 360px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    width: 100%;
+}
+.upcoming-content-2{
+    max-width: 400px;
 }
