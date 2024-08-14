@@ -36,6 +36,9 @@
     color: rgba(7, 2, 17, 0.6);
 }
 
+.text-center{
+    text-align: center;
+}
 .display-flex{
     display: flex;
 }
@@ -97,7 +100,7 @@
     letter-spacing: 0%;
 }
 
-.banner-title{
+.banner-title, .holidays-title{
     font-size: 4.5rem;
     font-weight: 900;
     line-height: 90px;
@@ -124,7 +127,7 @@
     letter-spacing: 0%;
     margin-bottom: 48px;
 }
-.subtitle{
+.subtitle, .holidats-subtitle{
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 30px;
@@ -195,7 +198,7 @@
 .upcoming{
     gap: 100px;
     align-items: center;
-
+    margin-bottom: 120px;
 }
 .upcoming-content-1{
     max-width: 400px;
@@ -220,4 +223,37 @@
 }
 .upcoming-content-2{
     max-width: 400px;
+}
+
+/* holidays-offer related styles */
+
+.holidays-offer{
+    max-width: 1320px;
+    margin: 0 auto;
+    background-image: url("../images/Rectangle 2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+}
+
+.holidays-content{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 100px; 
+}
+
+.holidays-image{
+    justify-content: space-between;
+    /* padding: 30px 60px; */
+}
+
+.image-1{
+    max-width: 675px;
+    padding: 0px 60px 55px 60px;
+}
+
+.image-2{
+    max-width: 300px;
+    padding: 30px;
+    margin-top: 30px;
 }
